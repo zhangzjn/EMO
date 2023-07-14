@@ -1,7 +1,7 @@
 # EMO
 
 --- 
-Official [PyTorch](https://pytorch.org/) implementation of "[Rethinking Mobile Block for Efficient Attention-based Models](https://arxiv.org/abs/2301.01146)".
+Official [PyTorch](https://pytorch.org/) implementation of "[Rethinking Mobile Block for Efficient Attention-based Models, ICCV'23](https://arxiv.org/abs/2301.01146)".
 
 >**This paper is still under a review process.**
 
