@@ -3,8 +3,6 @@
 --- 
 Official [PyTorch](https://pytorch.org/) implementation of "[Rethinking Mobile Block for Efficient Attention-based Models, ICCV'23](https://arxiv.org/abs/2301.01146)".
 
->**This paper is still under a review process.**
-
 > **Abstract:** This paper focuses on developing modern, efficient, lightweight models for dense predictions while trading off parameters, FLOPs, and performance. Inverted Residual Block (IRB) serves as the infrastructure for lightweight CNNs, but no counterpart has been recognized by attention-based studies. This work rethinks lightweight infrastructure from efficient IRB and effective components of Transformer from a unified perspective, extending CNN-based IRB to attention-based models and abstracting a one-residual Meta Mobile Block (MMB) for lightweight model design. Following simple but effective design criterion, we deduce a modern **I**nverted **R**esidual **M**obile **B**lock (iRMB) and build a ResNet-like Efficient MOdel (EMO) with only iRMB for down-stream tasks. Extensive experiments on ImageNet-1K, COCO2017, and ADE20K benchmarks demonstrate the superiority of our EMO over state-of-the-art methods, e.g., EMO-1M/2M/5M achieve 71.5, 75.1, and 78.4 Top-1 that surpass equal-order CNN-/Attention-based models, while trading-off the parameter, efficiency, and accuracy well: running 2.8-4.0×↑ faster than EdgeNeXt on iPhone14. Code is available.
 
 <div align="center">
@@ -151,6 +149,18 @@ Train with 8 GPUs in one node:
 ## Mobile Evaluation
 - run `python3 model/_emo_ios.py` to obtain Core ML models
 - Ref to [Classifying Images with Vision and Core ML](https://developer.apple.com/documentation/vision/classifying_images_with_vision_and_core_ml) to build IOS App and test.
+
+## Citation
+If our work is helpful for your research, please consider citing:
+```angular2html
+@inproceedings{emo,
+  title={Rethinking mobile block for efficient neural models},
+  author={Zhang, Jiangning and Li, Xiangtai and Li, Jian and Liu, Liang and Xue, Zhucun and Zhang, Boshen and Jiang, Zhengkai and Huang, Tianxin and Wang, Yabiao and Wang, Chengjie},
+  booktitle={ICCV},
+  pages={1--8},
+  year={2023}
+}
+```
 
 # Acknowledgements
 We thank but not limited to following repositories for providing assistance for our research:
