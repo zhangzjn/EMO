@@ -153,7 +153,7 @@ Train with 8 GPUs in one node:
 ## Citation
 If our work is helpful for your research, please consider citing:
 ```angular2html
-@inproceedings{,
+@inproceedings{emo,
   title={Rethinking Mobile Block for Efficient Attention-based Models},
   author={Zhang, Jiangning and Li, Xiangtai and Li, Jian and Liu, Liang and Xue, Zhucun and Zhang, Boshen and Jiang, Zhengkai and Huang, Tianxin and Wang, Yabiao and Wang, Chengjie},
   booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
